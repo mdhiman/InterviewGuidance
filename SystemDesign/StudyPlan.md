@@ -18,3 +18,42 @@
 | 14 | Spanner: Google's Globally Distributed Database | Globally distributed database | [PDF](ResearchPaper/Spanner-Google%20Globally%20Distributed%20Database.pdf) |
 | 15 | ZooKeeper: Distributed Coordination Service | Coordination service for distributed applications | [PDF](ResearchPaper/Zookeeper.pdf) |
 
+# System Design Core Concepts
+
+## 1. Scalability
+- [Horizontal vs Vertical Scaling](https://www.geeksforgeeks.org/scalability-in-distributed-systems/)
+- [Load Balancing](https://www.nginx.com/resources/glossary/load-balancing/)
+- [Caching Strategies](https://developer.redis.com/explore/cache/cache-strategies/)
+
+## 2. Data Management
+- [Database Sharding](https://www.digitalocean.com/community/tutorials/understanding-database-sharding)
+- [Replication](https://www.geeksforgeeks.org/replication-in-distributed-system/)
+- [Consistency Models](https://jepsen.io/consistency)
+
+## 3. Reliability & Availability
+- [CAP Theorem](https://www.geeksforgeeks.org/cap-theorem-in-distributed-systems/)
+- [Failover and Redundancy](https://www.ibm.com/docs/en/zos/2.1.0?topic=SSLTBW_2.1.0/com.ibm.zos.v2r1.iean100/iea3n100110.htm)
+- [Quorum](https://en.wikipedia.org/wiki/Quorum_(distributed_computing))
+
+## 4. Messaging & Communication
+- [Message Queues](https://aws.amazon.com/message-queue/)
+- [Publish-Subscribe Pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
+- [Event-Driven Architecture](https://martinfowler.com/articles/201701-event-driven.html)
+
+## 5. Security
+- [Authentication vs Authorization](https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization)
+- [Encryption in Transit and at Rest](https://www.cloudflare.com/learning/ssl/what-is-encryption/)
+- [Rate Limiting](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After)
+
+## 6. Monitoring & Observability
+- [Metrics, Logging, and Tracing](https://opentelemetry.io/docs/concepts/observability/)
+- [Health Checks](https://microservices.io/patterns/observability/health-check-api.html)
+- [Alerting](https://www.datadoghq.com/solutions/alerting/)
+
+## 7. Design Patterns
+- [Microservices](https://martinfowler.com/articles/microservices.html)
+- [Monolithic vs Microservices](https://www.geeksforgeeks.org/monolithic-vs-microservices-architecture/)
+- [Service Discovery](https://www.nginx.com/learn/service-discovery/)
+
+---
+
